@@ -114,6 +114,7 @@
         height: 250px;
         margin-top: 15px;
         border: 1px solid white;
+        text-shadow: none;
     }
 
     i {

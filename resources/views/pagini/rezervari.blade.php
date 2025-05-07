@@ -94,7 +94,7 @@
         color: #04236a;
     }
 
-    button {
+    .rezervari button {
         margin-top: 10px;
         height: 40px;
         width: 50%;
