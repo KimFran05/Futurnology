@@ -2,7 +2,7 @@
 @section('titlu', 'Acasă')
 @section('continut')
     <div class="home">
-        <div class="slogan"><h1>“Cu digitalizare o să ai cea mai bună mâncare!”</h1></div>
+        <div class="slogan"><h1>“Clientul nostru, <br> stăpânul nostru!”</h1></div>
         <h2 style="padding-top: 20px">Cine suntem noi?</h2>
         <p>Suntem un restaurant futuristic cu digitalizare avansată.</p>
         <h2>În ce constă această digitalizare?</h2>
@@ -46,7 +46,6 @@
         o secțiune specială unde se pot selecta alergii, iar 
         în funcție de acestea, sistemul nostru va crea 
         automat un meniul cu preparate sigure pentru consum, fără alergeni.
-
         </p>
     </div>
 @endsection
@@ -67,7 +66,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        height: 74%;
+        height: 77%;
     }
 
     h2 {
