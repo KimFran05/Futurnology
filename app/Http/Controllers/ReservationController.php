@@ -14,7 +14,7 @@ class ReservationController extends Controller
         $date = $request->validate([
             'nume' => ['required', 'min:3', 'max:20'],
             'prenume' => ['required', 'min:3', 'max:20'],
-            'telefon' => ['required', 'min:10'],
+            'telefon' => ['required', 'regex:/^(07)[0-9]{8}$/'],
             'email' => ['required', 'email'],
             'data' => ['required'],
             'ora' => ['required'],

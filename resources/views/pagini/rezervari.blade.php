@@ -18,7 +18,7 @@
             <div class="grup">
                 <div>
                     Telefon: <br>
-                    <input type="text" name="telefon">
+                    <input type="text" name="telefon" maxlength="10">
                 </div>
                 <div>
                     Email: <br>
